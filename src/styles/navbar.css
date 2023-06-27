@@ -1,0 +1,43 @@
+.navbar {
+    background-color: rgba(20, 27, 22, 0.835);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+#home-button {
+    background-color: rgb(29, 199, 29);
+    border: 0;
+}
+
+#home-button:hover {
+    background-color: rgb(26, 168, 26);
+}
+
+#home-button a {
+    color: white;
+    text-decoration: none;
+}
+
+#login-button {
+    float: right;
+    background-color: gray;
+    border: 0;
+    position: absolute;
+    right: 2%;
+}
+
+#login-button:hover {
+    background-color: rgb(107, 106, 106);
+}
+
+#login-button a {
+    color: white;
+    text-decoration: none;
+}
